@@ -1,0 +1,10 @@
+{
+  "name": "Remix SchemeSense AI – Nationwide Government Scheme \u0026 Service Intelligence Platform",
+  "description": "Nationwide Indian Government Scheme and Service Intelligence Platform powered by Generative AI. Discover Central, State, and UT schemes, citizen services, documents, certificates, and check personalized eligibility.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

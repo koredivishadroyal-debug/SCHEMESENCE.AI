@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Newsreader', Georgia, serif;
+  --font-display: 'Newsreader', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  --color-forest-950: #08110D;
+  --color-forest-900: #0C1511;
+  --color-forest-850: #101c17;
+  --color-forest-800: #142820;
+  --color-forest-700: #155C45;
+  --color-forest-600: #1E7658;
+  --color-forest-500: #2C8C6B;
+
+  --color-linen-50: #FAF9F5;
+  --color-linen-100: #F4F2EB;
+  --color-linen-200: #EBE7DD;
+  --color-linen-300: #DFDACD;
+  --color-linen-400: #CAC3B2;
+
+  --color-saffron-500: #D88932;
+  --color-saffron-600: #BF7220;
+
+  --color-ash-500: #6C746E;
+  --color-ash-600: #545B56;
+  --color-ash-400: #88908A;
+}
+
+:root {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Devanagari', 'Noto Sans Telugu', 'Noto Sans Tamil', 'Noto Sans Kannada', 'Noto Sans Malayalam', 'Noto Sans Bengali', 'Noto Sans Gujarati', 'Noto Sans Gurmukhi', 'Noto Sans Oriya', 'Noto Nastaliq Urdu', system-ui, -apple-system, sans-serif;
+}
+
+.font-editorial {
+  font-family: 'Newsreader', Georgia, serif;
+}
+
+.bg-topo-pattern {
+  background-image: radial-gradient(rgba(21, 92, 69, 0.12) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.bg-topo-pattern-dark {
+  background-image: radial-gradient(rgba(44, 140, 107, 0.15) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+[lang="ur"], [dir="rtl"] {
+  font-family: 'Noto Nastaliq Urdu', 'Plus Jakarta Sans', system-ui, sans-serif;
+  letter-spacing: normal;
+}
+
+[dir="rtl"] .rtl-mirror {
+  transform: scaleX(-1);
+}
+
+[dir="rtl"] input,
+[dir="rtl"] textarea {
+  text-align: right;
+}
